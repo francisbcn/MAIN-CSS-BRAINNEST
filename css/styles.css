@@ -280,6 +280,14 @@ main {
   margin-left: auto;
 }
 
+.hero-container .cta-btn:hover,
+.cta .cta-btn:hover {
+  background-color: var(--light-text);
+  cursor: pointer; 
+  color: var(--button-color); 
+ 
+}
+
 .cta .cta-btn {
   border: 2px solid var(--light-text);
 }
