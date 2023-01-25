@@ -281,13 +281,25 @@ main {
   margin-left: auto;
 }
 
-.hero-container .cta-btn:hover,
+.cta-btn a {
+  text-decoration: none;
+  color: var(--light-text);
+}
 .cta .cta-btn:hover {
   background-color: var(--light-text);
   cursor: pointer; 
-  color: var(--button-color); 
+  color: var(--dark-bg); 
+  
+}
+
+.hero-container .cta-btn:hover{
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  cursor: pointer; 
+  box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
  
 }
+
 
 .cta .cta-btn {
   border: 2px solid var(--light-text);

@@ -183,37 +183,40 @@ footer p {
     flex-wrap: wrap;
   }
 
-    .team-member h5 {
-      font-size: 1.3rem;
+  .team-member h5 {
+    font-size: 1.3rem;
     margin: 1rem 0;
     width: 100%;
     text-align: center;
-    }
-    .team-member h3 {
+  }
+
+  .team-member h3 {
     padding: 0 0 0.5rem 0;
     width: 100%;
     text-align: center;
-    }
+  }
 
-    .team-member p {
-      padding: 0 0 0.5rem 0;
-      width: 100%;
-      text-align: center;
-      }
+  .team-member p {
+    padding: 0 0 0.5rem 0;
+    width: 100%;
+    text-align: center;
+  }
 
-    .team-member .social-media-links {
+  .team-member .social-media-links {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    }
-    .team-member .social-media-links a {
+  }
+
+  .team-member .social-media-links a {
     margin: 0 0.5em;
-    }
-    .team-member .social-media-links i {
-      font-size: 2rem;
-      margin: 0.5rem 0;
-      
-      }
+  }
+
+  .team-member .social-media-links i {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+
+  }
 
   .team-member:nth-of-type(2) {
     flex-direction: column;
@@ -231,7 +234,6 @@ footer p {
     text-align: center;
   }
 
-  /* Center team member info and images */
   .team-member img,
   .team-member h5,
   .team-member h3,
@@ -240,17 +242,14 @@ footer p {
     margin: 0 auto;
   }
 
-  /* Remove margin from last team member */
   .team-member:last-of-type {
     margin-bottom: 0;
   }
 
-  /* Remove margin from breadcrumb */
   .breadcrumb-wrap {
-    margin: 0;
+    margin: 1rem;
   }
 
-  /* Add Address and map*/
   .address {
     display: block;
     text-align: center;
@@ -270,10 +269,54 @@ footer p {
     letter-spacing: -0.3px;
   }
 
-  /* Map Section */
   .map {
     width: 100%;
     height: 300px;
     margin-bottom: 2rem;
   }
-}
+
+  .social {
+    text-align:center;
+    }
+    
+    .social h3 {
+    font-size: 2rem;
+    }
+    
+    .social .social-media-links {
+      width: 100%;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .social .social-media-links a {
+      justify-content: center;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin: 10px;
+    }
+    
+    .social .social-media-links i {
+    
+      font-size: 1.5rem;
+      margin-right: 0.5rem; 
+      width: 30px;
+      height: 30px;
+    }
+
+
+   /*  contact */
+   .introduction {
+    width: 100vw;
+    text-align: center;
+  }
+   .introduction img {
+    width: 100%;
+   }
+
+
+
+ }
