@@ -23,7 +23,6 @@
 .about h2 {
   margin-bottom: 1em;
   font-size: 2.5em;
-
 }
 
 .about p {
@@ -46,10 +45,9 @@
 .about .cta-btn:hover {
   background-color: var(--dark-bg);
   color: var(--light-text);
-  cursor: pointer; 
+  cursor: pointer;
   box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
 }
-
 
 /* Team Section */
 
@@ -64,8 +62,6 @@
 .team .reverse {
   flex-direction: row-reverse;
 }
-
-
 
 .team-member {
   display: flex;
@@ -131,7 +127,6 @@
 .reverse p,
 .reverse h3 {
   text-align: right;
-
 }
 
 .reverse img {
@@ -296,6 +291,7 @@ footer p {
     align-items: center;
     margin: 10px;
   }
+
   .social .social-media-links i {
 
     font-size: 1.5rem;
@@ -303,6 +299,7 @@ footer p {
     width: 30px;
     height: 30px;
   }
+
   /*  contact */
   .introduction {
     width: 100vw;
