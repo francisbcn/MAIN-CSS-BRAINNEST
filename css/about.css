@@ -44,9 +44,10 @@
 }
 
 .about .cta-btn:hover {
-  background-color: var(--light-text);
-  cursor: pointer;
-  color: var(--button-color);
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  cursor: pointer; 
+  box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
 }
 
 

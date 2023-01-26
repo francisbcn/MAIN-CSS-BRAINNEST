@@ -152,6 +152,14 @@
   margin-top: 1rem;
 }
 
+.cta2 .cta-btn:hover{
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  cursor: pointer; 
+  box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
+ 
+}
+
 /* LOCATION */
 .location {
   width: 100%;
