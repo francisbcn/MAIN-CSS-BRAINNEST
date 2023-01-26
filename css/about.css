@@ -1,8 +1,7 @@
 @import url(styles.css);
 @import url(fonts.css);
-@import url(contact.css);
 @import url(galleries.css);
-
+@import url(contact.css);
 
 :root {
   --dark-bg: #1f2937;
@@ -139,40 +138,6 @@
 
 .reverse h5 {
   margin-right: 0;
-}
-
-/* social */
-
-.social .social-media-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social .social-media-links a {
-  color: var(--light-text);
-  text-decoration: none;
-  margin-right: 1em;
-  font-size: 1.2em;
-}
-
-.social .social-media-links a:last-of-type {
-  margin-right: 0;
-}
-
-.social .social-media-links a:hover {
-  color: var(--button-color);
-}
-
-.social {
-  width: 100%;
-  text-align: center;
-}
-
-.social h3 {
-  margin-bottom: 1rem;
-  font-weight: 300;
-  font-size: 2rem;
 }
 
 /* Footer */
