@@ -285,19 +285,20 @@ main {
   text-decoration: none;
   color: var(--light-text);
 }
+
 .cta .cta-btn:hover {
   background-color: var(--light-text);
-  cursor: pointer; 
-  color: var(--dark-bg); 
-  
+  cursor: pointer;
+  color: var(--dark-bg);
+
 }
 
-.hero-container .cta-btn:hover{
+.hero-container .cta-btn:hover {
   background-color: var(--dark-bg);
   color: var(--light-text);
-  cursor: pointer; 
+  cursor: pointer;
   box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
- 
+
 }
 
 
@@ -321,43 +322,52 @@ footer p {
 }
 
 @media (max-width: 600px) {
-  a:hover {
+
+  .head-cont nav a:hover,
+  a:hover,
+  button:hover {
     pointer-events: none;
-    text-decoration: none;
+    cursor: default;
+    background-color: initial;
   }
+
   /* HERO */
   .hero {
     flex-direction: column-reverse;
     align-items: center;
+    align-items: center;
   }
 
   .hero-container {
-    width: 100vw;
+    width: 100%;
     text-align: center;
   }
 
   .hero-container h2 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .hero-container img {
-    width: 100%;;
+    width: 100%;
   }
 
   .welcome-cont {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
+
 
   /* SERVICES */
 
- 
+
   .services {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
+
 
   .services .service {
     max-width: 100%;
@@ -374,44 +384,52 @@ footer p {
     pointer-events: none;
     animation: none;
   }
-  .specific  {
+
+  .specific {
     width: 100vw;
   }
+
   /* HEADER */
   header nav {
     flex-wrap: wrap;
-   
   }
 
   header nav ul {
-    flex-direction: column;   
+    flex-direction: column;
     margin-top: 1rem;
   }
-  header nav ul li { 
-    padding-bottom: 0.5rem; 
-    
-  }
-  .head-cont h1 {
-    word-break:break-all;
-    
+
+  header nav ul li {
+    padding-bottom: 0.5rem;
   }
 
+  .head-cont h1 {
+    word-break: break-all;
+  }
 
   header nav a {
-    margin: 10px 0;
- 
+    margin: 0;
+
   }
 
-/*   CONTACT ACTION */
+  /*   CONTACT ACTION */
 
   .cta {
-    display: flex;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
   }
-  
+
+  .cta .cta-container {
+    width: 100%;
+  }
+
+  .cta h3 {
+    font-size: 2rem;
+  }
+
   .hero-container .cta-btn {
     margin: 1rem 0 4rem 0;
     text-align: center;
@@ -419,23 +437,22 @@ footer p {
     width: 90%;
 
   }
-
   .cta .cta-btn {
-    margin-top: 1rem;
-    text-align: center;
-    padding: 10px 40px;
+    padding: 1rem;
     width: 100%;
-
+    margin: 3rem 0;
+    text-align: center;
   }
+
 
   .cta .cta-btn:hover {
     pointer-events: none;
-    animation: none;
-   
+    text-decoration: none;
+    cursor: default;
+    background-color: initial;
   }
 
   /* TEXTIMONIALS */
-
 
   .testimonial-box {
     width: 100%;
