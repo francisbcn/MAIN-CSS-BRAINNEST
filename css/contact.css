@@ -2,6 +2,7 @@
 @import url(fonts.css);
 @import url(about.css);
 @import url(galleries.css);
+@import url(reset.css);
 
 :root {
   --dark-bg: #1f2937;
@@ -21,18 +22,21 @@
 }
 
 .introduction h2 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   margin-bottom: 1em;
   font-size: 2.5em;
   text-align: center;
 }
 
 .introduction p {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-size: 1.2em;
   text-align: center;
   margin-bottom: 2em;
 }
 
 .introduction .cta-btn {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   background-color: var(--button-color);
   color: var(--light-text);
   padding: 0.8em 1.5em;
@@ -58,12 +62,14 @@
 }
 
 .contact h2 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   margin-bottom: 1em;
   font-size: 2.5em;
   text-align: center;
 }
 
 .contact form {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -113,6 +119,7 @@
 }
 
 .contact .social-media-links a {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   color: var(--light-text);
   text-decoration: none;
   margin-right: 1em;
@@ -133,6 +140,7 @@
 }
 
 .social h3 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   margin-bottom: 1rem;
   font-weight: 300;
   font-size: 2rem;
@@ -163,6 +171,7 @@
 
 /* LOCATION */
 .location {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   width: 100%;
   margin: 2rem 0;
 }
@@ -198,6 +207,7 @@
 }
 
 .map-container iframe {
+  border: 0;
   width: 100%;
   height: 100%;
 }

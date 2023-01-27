@@ -2,6 +2,7 @@
 @import url(fonts.css);
 @import url(galleries.css);
 @import url(contact.css);
+@import url(reset.css);
 
 :root {
   --dark-bg: #1f2937;
@@ -12,6 +13,7 @@
 }
 
 .about {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   background-color: var(--dark-bg);
   color: var(--logo-text);
   padding: 2em;
@@ -53,6 +55,7 @@
 /* Team Section */
 
 .team {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   background-color: var(--light-text);
   color: var(--dark-bg);
   padding: 2em;
@@ -110,10 +113,13 @@
 }
 
 .team-member h5 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
+  font-weight: 600;
   margin-right: 0.8rem;
 }
 
 .team-member h3 {
+  font-weight: 500;
   font-size: 1.5em;
   margin-bottom: 0.1em;
 }
@@ -173,21 +179,6 @@
   margin-bottom: 1rem;
   font-weight: 300;
   font-size: 2rem;
-}
-
-
-/* Footer */
-
-footer {
-  background-color: var(--dark-bg);
-  color: var(--light-text);
-  padding: 1em;
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
-  font-size: 0.8em;
 }
 
 @media only screen and (max-width: 600px) {

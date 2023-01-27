@@ -43,6 +43,7 @@
 /* GENERALS */
 
 html {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   width: 100vw;
   height: 100vh;
   font-size: 1rem;
@@ -70,6 +71,7 @@ header {
 }
 
 .head-cont h1 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-style: normal;
   font-weight: 900;
   font-size: 1.5rem;
@@ -78,6 +80,7 @@ header {
 }
 
 .head-cont nav {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   display: flex;
 }
 
@@ -138,6 +141,7 @@ main {
 }
 
 .hero-container h2 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-weight: 900;
   font-size: 3rem; /*48px*/
   color: var(--logo-text);
@@ -165,9 +169,11 @@ main {
 }
 
 .specific>h2:first-child {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-weight: 900;
   color: var(--dark-bg);
-  margin-top: 2.25rem;
+  margin: 2.25rem;
+  font-size: 2.25rem;
   /*36px*/
   width: 100%;
   text-align: center;
@@ -192,12 +198,14 @@ main {
 }
 
 .services .service h3 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-size: 1.1rem;
   color: var(--info-text);
   margin: 0.5rem 0px 0.2rem;
 }
 
 .services .service p {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-weight: 300;
   font-size: 1.125rem;
   /*  /18px/ */
@@ -226,6 +234,7 @@ main {
 }
 
 .testimonial-box>p {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-size: 2rem;
   /*36px*/
   font-style: italic;
@@ -235,6 +244,7 @@ main {
 }
 
 .testimonial-box h4 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-size: 1.2rem;
   /*36px*/
   font-weight: 800;
@@ -245,6 +255,7 @@ main {
 /* CONTACT ACTION */
 
 .cta {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   display: flex;
   justify-content: space-around;
   width: 60%;
@@ -258,12 +269,14 @@ main {
 }
 
 .cta h2 {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   margin-bottom: 0.2rem;
   font-size: 1rem;
   font-weight: 600;
 }
 
 .cta p {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   font-weight: 300;
   font-size: 0.8rem;
 }
@@ -315,6 +328,7 @@ footer {
 }
 
 footer p {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   margin: 1.5rem 0;
   letter-spacing: 0.07rem;
 }

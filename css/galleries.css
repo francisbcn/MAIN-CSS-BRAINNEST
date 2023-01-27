@@ -1,5 +1,6 @@
 @import url(styles.css);
 @import url(fonts.css);
+@import url(reset.css);
 
 :root {
     --dark-bg: #1f2937;
@@ -29,6 +30,7 @@
 }
 
 .breadcrumb nav a {
+      font-family: 'Roboto', sans-serif, 'Open Sans';
     color: var(--dark-bg);
     text-decoration: none;
     font-weight: bold;
@@ -57,11 +59,12 @@
 }
 
 .galleries>h2 {
+    font-family: 'Roboto', sans-serif, 'Open Sans';
     font-weight: 300;
     text-align: center;
     color: var(--dark-bg);
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 
