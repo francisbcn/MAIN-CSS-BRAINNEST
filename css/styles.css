@@ -138,11 +138,8 @@ main {
 }
 
 .hero-container h2 {
-  font-family: 'roboto', 'Open Sans', 'Arial';
-  font-style: normal;
   font-weight: 900;
-  font-size: 3rem;
-  /*48px*/
+  font-size: 3rem; /*48px*/
   color: var(--logo-text);
   margin-bottom: 1rem;
 }
@@ -339,16 +336,23 @@ footer p {
   }
 
   .hero-container {
-    width: 100%;
+    width: 100vw;
     text-align: center;
   }
 
   .hero-container h2 {
     font-size: 4rem;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .hero-container p {
+    font: 1.5rem;
+    padding: 0 1rem !important;
   }
 
   .hero-container img {
     width: 100%;
+    height: auto;
   }
 
   .welcome-cont {
@@ -458,9 +462,8 @@ footer p {
     width: 100%;
   }
 
-  /* CONTAINER */
   .container {
-    width: 100vw;
+    width: 100vw !important;
     margin: 0 auto;
     padding: 0.2rem;
   }
