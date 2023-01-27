@@ -17,6 +17,7 @@
   padding: 2em;
   border-radius: 3rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .introduction h2 {
@@ -204,6 +205,26 @@
 
 @media only screen and (max-width: 600px) {
   
+  .introduction  {
+    width: 100vw!important;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+  }
+
+  .intro-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .introduction img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container{
+    width: 100vw !important;
+  }
 
   .breadcrumb-wrap {
     margin: 1rem;
@@ -259,20 +280,9 @@
   }
 
   .social .social-media-links i {
-
     font-size: 1.5rem;
     margin-right: 0.5rem;
     width: 30px;
     height: 30px;
-  }
-
-  /*  contact */
-  .introduction {
-    width: 100vw;
-    text-align: center;
-  }
-
-  .introduction img {
-    width: 100%;
   }
 }
