@@ -6,6 +6,7 @@
     --light-text: #e5e7eb;
     --logo-text: #f9faf8;
     --button-color: #3882f6;
+    --transition: all 0.2s ease-in-out;
 }
 
 /* Breadcrumb */

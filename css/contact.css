@@ -102,7 +102,7 @@
   border-radius: 0.4em;
   text-transform: uppercase;
   font-weight: bold;
-  transition: all 0.2s ease-in-out;
+  transition: var(--transition);
 }
 
 .contact .social-media-links {
@@ -157,7 +157,7 @@
   color: var(--light-text);
   cursor: pointer; 
   box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
- 
+  transition: var(--transition);
 }
 
 /* LOCATION */
@@ -165,10 +165,13 @@
   width: 100%;
   margin: 2rem 0;
 }
+.location address,
+.location p {
+  font-size: 1.2em;
+  margin-bottom: 0.4rem;
+  }
 
 .location h2 {
-  font-family: 'roboto', 'Open Sans', 'Arial';
-  font-style: normal;
   font-weight: 300;
   text-align: center;
   color: var(--dark-bg);
@@ -178,6 +181,7 @@
 
 .location-container {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .location-container address {
