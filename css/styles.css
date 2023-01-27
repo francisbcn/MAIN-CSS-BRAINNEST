@@ -87,8 +87,7 @@ header {
 .head-cont nav ul {
   list-style: none;
   display: flex;
-  font-size: 1.125rem;
-  /*18px*/
+  font-size: 1.125rem; /*18px*/
   color: var(--light-text);
 }
 
@@ -128,11 +127,11 @@ main {
 
 .hero-container p {
   color: var(--light-text);
-  font-size: 1.125rem;
-  /*18px*/
+  font-size: 1.125rem; /*18px*/
   font-family: 'roboto', 'Open Sans', 'Arial';
   font-style: normal;
   font-weight: 300;
+  line-height: 1.4rem;
   margin-bottom: 1rem;
 }
 
@@ -199,6 +198,7 @@ main {
 
 .services .service h3 {
   font-family: 'Roboto', sans-serif, 'Open Sans';
+  font-weight: 500;
   font-size: 1.1rem;
   color: var(--info-text);
   margin: 0.5rem 0px 0.2rem;
@@ -208,6 +208,7 @@ main {
   font-family: 'Roboto', sans-serif, 'Open Sans';
   font-weight: 300;
   font-size: 1.125rem;
+  line-height: 1.8rem;
   /*  /18px/ */
   color: var(--info-text);
   margin-top: 0.5rem;
@@ -297,26 +298,25 @@ main {
   color: var(--light-text);
 }
 
-.cta .cta-btn:hover {
-  background-color: var(--light-text);
-  cursor: pointer;
-  color: var(--dark-bg);
-
-}
-
 .hero-container .cta-btn:hover {
   background-color: var(--dark-bg);
   color: var(--light-text);
   cursor: pointer;
   box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
-
+  transition: var(--transition);
 }
-
 
 .cta .cta-btn {
   border: 2px solid var(--light-text);
 }
 
+.cta .cta-btn:hover {
+  background-color: var(--dark-bg);
+  cursor: pointer;
+  color: var(--dark-bg);
+  box-shadow: 0.2px 0.2px 3px 0px var(--light-text);
+
+}
 /*  FOOTER */
 
 footer {
