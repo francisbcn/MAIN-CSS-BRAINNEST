@@ -425,8 +425,14 @@ footer p {
     width: 100%;
   }
 
-  .cta h3 {
+  .cta h2 {
     font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .cta p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   .hero-container .cta-btn {
@@ -439,7 +445,7 @@ footer p {
   .cta .cta-btn {
     padding: 1rem;
     width: 100%;
-    margin: 3rem 0;
+    margin: 1.5rem 0;
     text-align: center;
   }
 
