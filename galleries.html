@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,11 @@
     <link rel="stylesheet" href="css/galleries.css">
     <script src="https://kit.fontawesome.com/d80044a3f4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <section class="container head-cont ">
-            <h1>Photography Studio</h1>
+            <h1><a href="index.html">Photography Studio</a></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -24,14 +26,12 @@
         </section>
     </header>
     <div class="breadcrumb-wrap">
-        <div class="breadcrumb">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="galleries.html" class="active">Galleries</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="breadcrumb">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="galleries.html" class="active">Galleries</a></li>
+            </ul>
+        </nav>
     </div>
     <main>
         <section class="galleries container">
@@ -77,22 +77,24 @@
             </div>
         </section>
         <section class="testimonials container">
-            <div class="testimonial-box">
-                <p>"We had a great experience working with this photography studio for our family photos. They were
-                    patient with our kids and captured some truly beautiful shots."</p>
-                <h4>-The Smith Family</h4>
-            </div>
+            <blockquote class="testimonial-box">
+                <p>"We had a great experience working with this photography studio for our family photos. They were patient with our kids and captured some truly beautiful shots."</p>            
+            </blockquote>
+            <cite>
+                <p>-The Smith Family</p>
+            </cite>
         </section>
-        <div class="cta">
-            <section>
+        <section class="cta">
+            <div>
                 <h2>Ready to book your photo shoot?</h2>
                 <p>Contact us to discuss your needs and schedule a photo shoot today.</p>
-            </section>
+            </div>
             <button class="cta-btn"><a href="contact.html#form-contact">Contact Us</a></button>
-        </div>
+        </section>
     </main>
     <footer>
         <p>Copyright &copy; Photography Studio</p>
     </footer>
 </body>
+
 </html>

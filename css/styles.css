@@ -1,28 +1,3 @@
-/* FONTS */
-/* @font-face {
-  font-family: "roboto-bold";
-  src: url(../fonts/Roboto-Bold.ttf) format('trueType');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "roboto-Regular";
-  src: url(../fonts/Roboto-Regular.ttf) format('trueType');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "roboto-Black";
-  src: url(../fonts/Roboto-Black.ttf) format('trueType');
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: "roboto-Light-Italic";
-  src: url(../fonts/Roboto-LightItalic.ttf) format('trueType');
-  font-weight: 300;
-} */
-
 /* UNIVERSAL */
 *,
 * ::after,
@@ -70,13 +45,14 @@ header {
   padding: 1rem;
 }
 
-.head-cont h1 {
+.head-cont h1 a {
   font-family: 'Roboto', sans-serif, 'Open Sans';
   font-style: normal;
   font-weight: 900;
   font-size: 1.5rem;
   /*24px*/
   color: var(--logo-text);
+  text-decoration: none;
 }
 
 .head-cont nav {
@@ -114,9 +90,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   background-color: var(--dark-bg);
   gap: 2rem;
   padding: 2rem;
+  width: 100%;
 }
 
 .hero-container {
@@ -218,16 +196,17 @@ main {
 
 .testimonials {
   width: 100%;
-  padding: 2rem;
-  background-color: var(--quote-bg);
+  padding: 5rem;
+  background-color: var(--light-text);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .testimonial-box {
-  width: 80%;
+  width: 100%;
   padding: 2rem;
   text-align: left;
   display: flex;
@@ -244,7 +223,7 @@ main {
   margin-bottom: 1rem;
 }
 
-.testimonial-box h4 {
+.testimonials cite {
   font-family: 'Roboto', sans-serif, 'Open Sans';
   font-size: 1.2rem;
   /*36px*/
@@ -406,6 +385,7 @@ footer p {
 
   .specific {
     width: 100vw;
+
   }
 
   /* HEADER */
@@ -477,6 +457,16 @@ footer p {
     width: 100%;
   }
 
+  .testimonials {
+    width: 100%;
+    padding: 2rem 0!important;
+    margin: 4rem 0 !important;
+  }
+
+  .testimonials cite {
+    padding-right: 2rem;
+  }
+  
   .container {
     width: 100vw !important;
     margin: 0 auto;

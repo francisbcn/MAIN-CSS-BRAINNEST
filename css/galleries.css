@@ -29,24 +29,24 @@
     display: flex;
 }
 
-.breadcrumb nav a {
-      font-family: 'Roboto', sans-serif, 'Open Sans';
+.breadcrumb a {
+    font-family: 'Roboto', sans-serif, 'Open Sans';
     color: var(--dark-bg);
     text-decoration: none;
     font-weight: bold;
 }
 
-.breadcrumb nav a:hover {
+.breadcrumb a:hover {
     color: var(--button-color);
 }
 
-.breadcrumb nav a.active {
+.breadcrumb a.active {
     font-size: 1.2rem;
     font-weight: 900;
     color: var(--button-color);
 }
 
-.breadcrumb nav a::before {
+.breadcrumb  a::before {
     content: ">";
     padding: 0 1rem;
     color: var(--dark-bg);
