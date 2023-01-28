@@ -149,28 +149,30 @@
 }
 /* Social */
 
-.contact .social-media-links {
+.social .social-media-links {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact .social-media-links a {
+.social .social-media-links a {
   color: var(--light-text);
   text-decoration: none;
   margin-right: 1em;
   font-size: 1.2em;
 }
 
-.contact .social-media-links a:last-of-type {
+.social .social-media-links a:last-of-type {
   margin-right: 0;
 }
 
-.contact .social-media-links a:hover {
+.social .social-media-links a:hover {
   color: var(--button-color);
 }
 
 .social {
+  font-family: 'Roboto', sans-serif, 'Open Sans';
   width: 100%;
   text-align: center;
 }
